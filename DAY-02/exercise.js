@@ -55,10 +55,14 @@ console.log(favFood);
 favFood.pop(1,1);
 console.log(favFood);
 
+favFood.splice(0,1);
+console.log(favFood);
 
+favFood.splice(0,1);
+console.log(favFood);          
 
-            
-
+favFood.splice(1,0,1,2,3,4);
+console.log(favFood);
 
 
 
